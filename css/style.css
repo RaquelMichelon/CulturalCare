@@ -14,6 +14,8 @@
 
 
     font-size: 62.5%; /* 1rem = 10px */
+
+    --nav-height: 7.2rem;
 }
 
 body {
@@ -25,19 +27,19 @@ body {
 .wrapper {
     width: 37.5rem;
     margin-inline: auto;
+    padding-inline: 2.4rem;
 }
 
 /* ====HEADER================================================== */
 
 header {
-    margin-top: 4.21rem;
-    padding: 0 2rem;
+    margin-top: calc(4.21rem + var(--nav-height));
 }
 
 header::before {
     content: "";
     width: 100vw;
-    height: 108rem;
+    height: calc(108rem + var(--nav-height));
     background-color: var(--brand-light);
     display: block;
     position: absolute;
@@ -128,13 +130,30 @@ header img {
 /* ====NAV================================================== */
 nav {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
 
-    padding: 1.6rem 2.4rem;
+    height: var(--nav-height);
 
     position: fixed;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+nav .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav.scroll {
+    background: var(--primary-color);
+    width: 100vw;
+}
+
+nav.scroll svg:nth-child(1) path {
+    fill: white;
+}
+
+nav.scroll svg:nth-child(2) path {
+    stroke: white;
 }
