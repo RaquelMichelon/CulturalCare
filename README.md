@@ -2,6 +2,11 @@
 
 CulturalCare is a responsive Webpage to show cultural events to users. This project is in the development phase.
 
+## Layout
+
+![](layout-color-1.png)
+![](layout-color-2.png)
+
 ## Installation
 
 - Clone the project;
