@@ -2,6 +2,8 @@
 
 CulturalCare is a responsive Webpage to show cultural events to users. This project is in the development phase.
 
+Click [here](https://raquelmichelon.github.io/CulturalCare/) to see the project on-line.
+
 ## Layout
 
 ![](layout-color-1.png)
@@ -10,11 +12,11 @@ CulturalCare is a responsive Webpage to show cultural events to users. This proj
 ## Installation
 
 - Clone the project;
-- Open in your browser;
+- Open it in your browser;
 
 ## Acknowledgment
 
-[NLW | Rocketseat](https://www.rocketseat.com.br)
+[NLW #8 | Rocketseat](https://www.rocketseat.com.br)
 
 ## License
 
